@@ -5,11 +5,11 @@ This repository showcases the implementation of the Page Object Model (POM) desi
 ## Installation
 Before proceeding, ensure that **Node.js** and **npm** are installed on your system.
 
-- **Step 1:** Initialize a new Playwright project:
-  `npm init playwright@latest`
+- **Step 1:** Install required node packages (in Project root folder):
+  `npm install`
 
 - **Step 2:** Install the browsers supported by Playwright:
-  `npx playwright install --with-deps`
+  `npx playwright install`
 
 ## Project structure
 ```bash
@@ -31,7 +31,11 @@ In a regular POM project, all website-represented pages are named as pages. In t
 ## Execution
 - Execute test cases
   ```bash
-  npx playwrith test
+  npx playwright test
+  ```
+- Show last generated HTML report (requires at least one run)
+  ```bash
+  npx playwright show-report 
   ```
 - Execute specific test suite
   ```bash
