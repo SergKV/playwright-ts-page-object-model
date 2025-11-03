@@ -33,7 +33,7 @@ In a regular POM project, all website-represented pages are named as pages. In t
   ```bash
   npx playwright test
   ```
-- Show last generated HTML report (requires at least one run)
+- Show last generated HTML report (requires at least one test run)
   ```bash
   npx playwright show-report 
   ```
@@ -41,7 +41,7 @@ In a regular POM project, all website-represented pages are named as pages. In t
   ```bash
   npx playwright test specific-suite.spec.ts
   ```
-- Execute test by tag
+- Execute test cases by tag
   ```bash
   npx playwright test --grep @Tag-Name
   ```
@@ -49,7 +49,7 @@ In a regular POM project, all website-represented pages are named as pages. In t
   ```bash
   npx playwright test --headed
   ```
-- Debug tests in UI mode
+- Debug test cases in UI mode
   ```bash
   npx playwright test --ui
   ```
