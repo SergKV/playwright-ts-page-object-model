@@ -12,19 +12,20 @@ Before proceeding, ensure that **Node.js** and **npm** are installed on your sys
   `npx playwright install --with-deps`
 
 ## Project structure
-tests  
-  ├───components  
-  │   ├───forms  
-  │   ├───pages  
-  │   ├───panels  
-  │   └───popups  
-  ├───constants  
-  ├───login  
-  │   └───data  
-  ├───shopping  
-  │   └───data  
-  └───utils  
-
+```bash
+tests
+├── components
+│   ├── forms
+│   ├── pages
+│   ├── panels
+│   └── popups
+├── constants
+├── login
+│   └── data
+├── shopping
+│   └── data
+└── utils
+```
 In a regular POM project, all website-represented pages are named as pages. In the given project, for simplicity of navigation and ease of use, pages were named as components and further subdivided into items such as form, page, or panel. This approach provides ease of navigation and improves code readability, scalability, and maintainability.
 
 ## Execution
