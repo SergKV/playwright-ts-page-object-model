@@ -1,0 +1,44 @@
+{
+    "valid": {
+        "phones": {
+            "Samsung-galaxy-s6": {
+                "name": "Samsung Galaxy S6",
+                "price": "$360",
+                "description": "The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded."
+            },
+            "Nexus-6": {
+                "name": "Nexus 6",
+                "price": "$650",
+                "description": "The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM."
+            },
+            "Iphone-6-32gb": {
+                "name": "Iphone 6 32gb",
+                "price": "$790",
+                "description": "It comes with 1GB of RAM. The phone packs 16GB of internal storage cannot be expanded. As far as the cameras are concerned, the Apple iPhone 6 packs a 8-megapixel primary camera on the rear and a 1.2-megapixel front shooter for selfies."
+            }
+        },
+        "laptops": {
+            "Sony-vaio-i5": {
+                "name": "Sony vaio i5",
+                "price": "$790",
+                "description": "Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight."
+            }
+        },
+        "monitors": {
+            "ASUS-Full-HD": {
+                "name": "ASUS Full HD",
+                "price": "$230",
+                "description": "ASUS VS247H-P 23.6- Inch Full HD"
+            }
+        },
+    "invalid": {
+        "phones": {
+            "Iphone-12-128gb": {
+                "name": "Iphone 12 128gb",
+                "price": "$790",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                }
+            }
+        }
+    }
+}

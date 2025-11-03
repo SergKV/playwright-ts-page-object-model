@@ -1,0 +1,17 @@
+{
+    "validUser": {
+        "login": "test_us3r",
+        "password": "passw0rd",
+        "name": "John",
+        "country": "United States",
+        "city": "New York",
+        "card": "4242 4242 4242 4242",
+        "month": "12",
+        "year": "2025"
+
+    },
+    "invalidUser": {
+        "userName": "not_existing_user",
+        "password": "secret_123"
+    }
+}
